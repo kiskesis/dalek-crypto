@@ -13,10 +13,7 @@
     "@types/node": "^13.9.0",
     "neon-cli": "^0.2.0"
   },
-  "cpu": [
-    "x64"
-  ],
   "scripts": {
-    "install": "RUSTFLAGS='-C target-feature=+avx2' npx neon build --release"
+    "install": "npx neon build --release"
   }
 }
